@@ -744,22 +744,7 @@ button:focus {
     transition-duration: 250ms;
 }
 
-/* .parent-paragraph {
-    background-color:  #2196F3E5;
-    width: 322px;
-    height: 168px;
-    color: var(--background-color);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    line-height: 28px;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    transform: translateY(100%);
-      
-} */
+
 
 .parent-paragraph {
     position: absolute;
@@ -772,11 +757,12 @@ button:focus {
     padding-bottom: 63px;
     padding-left: 24px;
     padding-right: 24px;
-    
+    font-size: 18px;
     color: #FFFFFF;
     line-height: 28px;
     transform: translateY(100%);
     transition: transform 250ms;
+    
 }
 
 
@@ -790,20 +776,7 @@ button:focus {
     transform: translateY(-0%);
 }
 
-/* .portfolio-parent::before {
-    display: inline-block;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2196F3E5;
-    transform: translateY(100%);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;
-    
-} */ 
+
 
 .portfolio-parent:hover .portfolio-parent {
     transform: translateY(-100%);
